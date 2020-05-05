@@ -2,8 +2,18 @@
     <head>
         <title>LMAOOO</title>
 			<script>
-				var imageurl = "https://raw.githubusercontent.com/onlytruejosh/lmaooo/master/photo-.jpeg";
-				var imagenumber = Math.floor(Math.random() * 4)) + 1;
+			console.log("HELLO!");
+				var imageurl = "https://raw.githubusercontent.com/onlytruejosh/lmaooo/master/photo-";
+				var imagenumber = Math.floor(Math.random() * 4) + 1;
 				console.log(imagenumber);
+				imageurl = imageurl + imagenumber + ".jpeg";
+				console.log(imageurl);
+				document.write('<img src="' + imageurl + '"/>');
+			</script>
+				
     </head>
+    <p>testy</p>
+    <audio autoplay>
+    <source src="https://raw.githubusercontent.com/onlytruejosh/lmaooo/master/laugh.mp3">
+    </audio>
 </html>

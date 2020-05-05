@@ -2,13 +2,23 @@
     <head>
         <title>LMAOOO</title>
         <style>
+        @font-face {
+        font-family: SanFrancisco;
+        src: url("https://github.com/AppleDesignResources/SanFranciscoFont/raw/master/SanFranciscoDisplay-Bold.otf");
+        }
         div {
-        max-width: 100vw;
-        max-height:100vh;
+       
+        width: 100vw;
+        height:100vh;
         }
         img {
         max-width: 100vw;
         max-height: 100vh;
+        }
+        h1 {
+        font-size: 2.6em;
+        text-align: center;
+        font-family: SanFrancisco;
         }
         </style>
 			<script>
@@ -27,12 +37,14 @@
     </head>
    <body>
    <div id="wholesite" onclick="audio.play();">
+   
    </div>
     
     <script>
    var div = document.getElementById('wholesite');
 				var content = '<img src="' + imageurl + '"/>';
 				div.innerHTML += content;
+				div.innerHTML += "<h1>Tap on the image!</h1>";
     	
     </script>
 </html>
